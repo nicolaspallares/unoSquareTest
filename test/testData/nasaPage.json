@@ -1,0 +1,18 @@
+{
+    "APIKey": "csNg0qm9nHlZKKz5r2e34pIFAx3JiLyidEcZI2QZ",
+    "responsePriority": "VeryHigh",
+    "responseRefeerPolicy": "strict-origin-when-cross-origin",
+    "responseStatusCode": "200",
+    "responseVary": "Accept-Encoding",
+    "responseVia": "http/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])",
+    "responseVia2": "1.1 vegur, http/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])",
+    "bodyCopyRight": "Patrick Hsieh",
+    "boddyMediaType": "image",
+    "bodyServiceVersion": "v1",
+    "bodyLinkNext": "http://www.neowsapp.com/rest/v1/feed?start_date=2015-09-08&end_date=2015-09-09&detailed=false&api_key=csNg0qm9nHlZKKz5r2e34pIFAx3JiLyidEcZI2QZ",
+    "bodyLinkPrev": "http://www.neowsapp.com/rest/v1/feed?start_date=2015-09-06&end_date=2015-09-07&detailed=false&api_key=csNg0qm9nHlZKKz5r2e34pIFAx3JiLyidEcZI2QZ",
+    "bodyLinkSelf": "http://www.neowsapp.com/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-08&detailed=false&api_key=csNg0qm9nHlZKKz5r2e34pIFAx3JiLyidEcZI2QZ",
+    "bodyTime": "2016-09-06T14:18Z",
+    "bodyCatalog": "M2M_CATALOG",
+    "bodyLink": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/CMEAnalysis/11233/-1"
+}

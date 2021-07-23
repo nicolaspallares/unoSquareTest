@@ -1,0 +1,22 @@
+{
+    "name": "unosqrtest",
+    "version": "1.0.0",
+    "description": "Test_Challenge",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx wdio run wdio.conf.js"
+    },
+    "author": "Nicolas Pallares",
+    "license": "ISC",
+    "devDependencies": {
+        "@wdio/allure-reporter": "^7.8.0",
+        "@wdio/cli": "^7.8.0",
+        "@wdio/jasmine-framework": "^7.8.0",
+        "@wdio/local-runner": "^7.8.0",
+        "@wdio/spec-reporter": "^7.8.0",
+        "@wdio/sync": "^7.8.0",
+        "chromedriver": "^91.0.1",
+        "wdio-chromedriver-service": "^7.2.0"
+    },
+    "dependencies": {}
+}

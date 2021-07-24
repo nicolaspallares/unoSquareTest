@@ -6,7 +6,7 @@ node v14.16.1
 npm 6.14.12
 
 Installation:
-1. Clone proyect
+1. Clone project
 2. npm install
 
 To run it:

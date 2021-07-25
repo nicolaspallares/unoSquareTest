@@ -19,9 +19,9 @@ describe('Validate APIs on NASA webpage', () => {
         //const APIKey = NasaHomePage.goToNasaAndGetKey();
         NasaHomePage.selectAPIandGo(1);
         var API1 = NasaHomePage.exapmleQuery1.getText();
-        const APIUrl1 = NasaHomePage.treatLink(API1, TestData.APIKey);
+        const APIUrl1 = NasaHomePage.treatLink(API1, TestData.APIKey) + TestData.dateForApod;
         browser.pause(globals.longWait);
-        var output1 = browser.mock('**/' + 'apod?api_key=' + TestData.APIKey, { method: 'get' });
+        var output1 = browser.mock('**/' + 'apod?api_key=' + TestData.APIKey + TestData.dateForApod, { method: 'get' });
 
         browser.url(APIUrl1);
         browser.pause(globals.shortWait);

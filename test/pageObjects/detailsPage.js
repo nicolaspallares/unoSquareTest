@@ -1,7 +1,7 @@
 class DetailsPage {
 
     get lblPrice() {
-        return $('#priceblock_ourprice');
+        return $('#price_inside_buybox');
     }
 
     get btnAddToCart() {

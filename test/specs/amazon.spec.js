@@ -78,7 +78,7 @@ describe('Validate functionalities on amazon webpage', () => {
         expect(HelpServicePage.deviceSoftwareAndHW.isDisplayed()).toBe(true);
         expect(HelpServicePage.deviceSoftwareAndHW.getText()).toEqual('Device Software and Hardware');
         expect(HelpServicePage.troubleShooting.isDisplayed()).toBe(true);
-        expect(HelpServicePage.troubleShooting.getText()).toEqual('Troubleshooting');
+        expect(HelpServicePage.troubleShooting.getText()).toEqual('Troubleshoot');
 
     });
 });

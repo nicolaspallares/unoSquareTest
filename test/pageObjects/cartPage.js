@@ -12,7 +12,7 @@ class CartPage {
     }
 
     get itemInCart() {
-        return $('.a-column.a-span10');
+        return $('.sc-list-item-content');
     }
 
     get linkDelete() {
